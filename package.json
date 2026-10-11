@@ -1,0 +1,26 @@
+{
+  "name": "recruiter-bot",
+  "version": "1.0.0",
+  "description": "RecruiterFlow Backend Developer Assignment - Matching Engine & SQL Detective",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "recruiterflow",
+    "backend",
+    "express",
+    "mysql",
+    "matching-algorithm"
+  ],
+  "author": "Yash",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
